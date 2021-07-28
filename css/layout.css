@@ -1,0 +1,19 @@
+.layout {
+  display: grid;
+  block-size: 100vh;
+  grid-template-columns: 15.25rem 1fr;
+  grid-template-rows: 6rem 1fr;
+  grid-template-areas: "header header" "sidebar main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
