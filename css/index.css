@@ -1,6 +1,8 @@
 @import "./icons.css";
 @import "./layout.css";
 @import "./calendar.css";
+@import "./task-cell.css";
+@import "./task.css";
 
 :root {
   --white: #fffffe;
